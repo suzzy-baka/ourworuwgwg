@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: brown;
+    animation: changeBackgroundColor 10s infinite;
+    height: 100%;
+	margin: 0;
+	padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  @keyframes changeBackgroundColor {
+    0% {background-color: brown;}
+    25% {background-color: rgb(190, 172, 4);}
+    50% {background-color: rgb(185, 24, 51);}
+    75% {background-color: rgb(240, 240, 10);}
+    100% {background-color: rgb(16, 197, 25);}
+  }
+
+.pookie {
+    color: aliceblue;
+}
+
+.uwu {
+    color: red;
+}
